@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+}
+
+.home {
+    background-image: url(assets/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #0077ff1f;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin: 0 50px 0 50px;
+}
+
+.heading {
+    color: white;
+    font-size: 90px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.subheading {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+}
+
+.picture {
+    margin-top: 30px;
+}
+
+.picture img {
+    height: 21rem;
+    width: 17rem;
+}
+
+.text-sec {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+.info {
+    width: 900px;
+    height: 500px;
+    background: #F1F1F1;
+    border-radius: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social img {
+    height: 65px;
+    width: 56px;
+    margin-right: 30px;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+.social a:hover {
+    color: rgb(0, 83, 236);
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-section video {
+    border-radius: 20px;
+}
+
+.video-btn {
+    margin-bottom: 30px;
+}
+
+.video-section {
+    margin: 20px 0 40px 0;
+}
+
+.resume-text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.letter-section img {
+    height: 700px;
+    width: 600px;
+}
